@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 128, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    position: relative;
+    color: black;
+}
+
+/**Beginning of Center-div**/
+
+.center-div {
+    position: absolute;
+    border: 1px solid white;
+    border-left: 2px solid red;
+    width: 25rem;
+    height: 33rem;
+    margin-bottom: 150px;
+    box-shadow: 0 0 40px 5px black;
+}
+
+.content:not(body) {
+    position: relative;
+}
+
+.circle {
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    right: -30px;
+    top: 70px;
+    position: absolute;
+}
+
+.circle p {
+    padding: 25px 0 0 18px;
+    font-size: .75rem;
+}
+
+.up-left {
+    top: 0;
+    left: 20px;
+    position: absolute;
+}
+
+.up-left h1 {
+    font-size: 1rem;
+}
+
+.up-right {
+    top: 0;
+    right: 0;
+    word-wrap: break-word;
+    font-size: .5rem;
+}
+
+.middle p {
+    padding: 50px 0 0 20px;
+
+}
+
+.inspiration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: -10px 40px 40px 40px;
+}
+
+.inspiration h1 {
+    color: white;
+    font-size: 3.2rem;
+}
+
+.inspiration p {
+    color: greenyellow;
+    font-size: .5rem;
+}
+
+.down-left {
+    bottom: 0;
+    left: 20px;
+    position: absolute;
+}
+
+.down-left i {
+    font-size: 2rem;
+}
+
+.down-right {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+/**End of Center-div**/
+
+/**Beginning of words under**/
+
+.words-under {
+    align-items: center;
+    padding-top: 32rem;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.words-under a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+span {
+    color: black;
+}
+
+/**End of words under**/
+
+/**Beginning of corner-div**/
+
+.corner-div {
+    position: absolute;
+    padding: 20px;
+}
+
+/**End of Corner-div**/
+
+/**Beginning of top-left**/
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+/**End of top-left**/
+
+/**Beginning of top-right**/
+
+.top-right {
+    top: 0;
+    right: 0;
+    font-size: 1.3rem;
+}
+
+.top-right a {
+    text-decoration: none;
+    color: black
+}
+
+/**End of top-right**/
+
+/**Beginning of bottom-left**/
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+    width: 400px;
+}
+
+.bottom-left h2 {
+    word-wrap: break-word;
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+}
+
+.bottom-left p {
+    padding-bottom: 30px;
+}
+
+.bottom-left p a {
+    color: black;
+}
+
+.bottom-left h3 a {
+    color: black;
+    font-size: 1.5rem;
+}
+
+/**End of bottom-left**/
+
+/**Beginning of bottom-right**/
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    font-size: 1.3rem;
+    padding-top: 5px;
+}
+
+/**End of bottom-right**/
